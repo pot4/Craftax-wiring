@@ -2,7 +2,7 @@
  Wiring extension on the Craftax-classic RL benchmarking environment
 
 # Installation
-Download the files from the repository and download the packages in requirements.txt
+Download the files from the repository and install the packages in requirements.txt
 
 # Play craftax-wiring
 Navigate to the craftax_wiring folder
