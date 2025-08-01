@@ -145,7 +145,7 @@ class CraftaxRenderer:
 def print_new_achievements(old_achievements, new_achievements):
     for i in range(len(old_achievements)):
         if old_achievements[i] == 0 and new_achievements[i] == 1:
-            print(f"{Achievement(i).name} ({new_achievements.sum()}/{22})")
+            print(f"{Achievement(i).name} ({new_achievements.sum()}/{47})")
 
 
 def main(args):

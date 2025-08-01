@@ -65,7 +65,7 @@ class Action(Enum):
     DO = 5  # space
     SLEEP = 6  # tab
     PLACE_STONE = 7  # r
-    PLACE_TABLE = 7  # t
+    PLACE_TABLE = 8  # t
     PLACE_FURNACE = 9  # f
     PLACE_PLANT = 10  # p
     MAKE_WOOD_PICKAXE = 11  # 1
@@ -74,7 +74,7 @@ class Action(Enum):
     MAKE_WOOD_SWORD = 14  # 4
     MAKE_STONE_SWORD = 15  # 5
     MAKE_IRON_SWORD = 16  # 6
-    MAKE_WIRE = 8  # 7
+    MAKE_WIRE = 17  # 7
     MAKE_POWER = 18  # 8
     MAKE_EXTENDER = 19 # e
     MAKE_JUNCTION = 20 # r
@@ -85,18 +85,18 @@ class Action(Enum):
     MAKE_PRESSURE_PLATE = 25 # o
     MAKE_INPUT = 26 # [
     MAKE_OUTPUT = 27 # ]
-    PLACE_WIRE = 8 # 9
+    PLACE_WIRE = 28 # 9
     PLACE_POWER = 29 # 0
-    PLACE_EXTENDER = 11 # lshift
-    PLACE_JUNCTION = 9 # z
-    PLACE_AND = 10 # x
-    PLACE_OR = 14 # c
-    PLACE_XOR = 11 # v
-    PLACE_NOT = 16 # b
-    PLACE_PRESSURE_PLATE = 17 # n
-    PLACE_INPUT = 12 # ,
-    PLACE_OUTPUT = 13 # .
-    SWITCH_INPUT = 14 # /
+    PLACE_EXTENDER = 30 # lshift
+    PLACE_JUNCTION = 31 # z
+    PLACE_AND = 32 # x
+    PLACE_OR = 33 # c
+    PLACE_XOR = 34 # v
+    PLACE_NOT = 35 # b
+    PLACE_PRESSURE_PLATE = 36 # n
+    PLACE_INPUT = 37 # ,
+    PLACE_OUTPUT = 38 # .
+    SWITCH_INPUT = 39 # /
 
 # GAME MECHANICS
 DIRECTIONS = jnp.concatenate(
